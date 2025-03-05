@@ -12,6 +12,7 @@ node{
 		echo "The value of mvnHome is: ${mvnHome}"
 		bat 'dir'
 		bat "cd time-tracker"
+		bat "chdir time-tracker"
 		echo 'hello maven'
 		bat 'dir'
 		//bat 'mvn package'
