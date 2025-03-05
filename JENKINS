@@ -13,7 +13,7 @@ node{
 		echo 'hello maven'		
 
 		//bat 'mvn package'
-		//bat "C:/ProgramData/Jenkins/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.9/bin/mvn package"
+		bat 'C:/ProgramData/Jenkins/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.9/bin/mvn package'
 		//bat "${mvnHome}/bin/mvn package"
 		//bat "${mvnHome}/bin"
 	}
