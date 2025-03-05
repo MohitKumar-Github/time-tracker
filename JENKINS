@@ -1,7 +1,8 @@
 node{
 	stage('SCM checkout'){
 		echo 'hello'
-		bat  'rmdir mavennn /S /Q'
+		//bat  'rmdir mavennn /S /Q'
+		bat  'rmdir time-tracker /S /Q'
 		//bat "git clone https://github.com/MohitKumar-Github/mavennn.git"
 		bat "git clone https://github.com/MohitKumar-Github/time-tracker.git"
 	}
