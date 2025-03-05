@@ -9,7 +9,7 @@ node{
 	stage('compile package'){
 		//get maven home path
 		//def mvnHome = tool name: 'maven 3.9', type: 'maven'
-		echo "The value of mvnHome is: ${mvnHome}"
+		//echo "The value of mvnHome is: ${mvnHome}"
 		bat 'dir'
 		echo 'hello maven'
 		bat 'dir'
