@@ -12,7 +12,7 @@ node{
 		//echo "The value of mvnHome is: ${mvnHome}"
 		bat 'dir'
 		echo 'hello maven'
-		bat 'cd C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Maven_Details\\time-tracker'
+		bat "cd C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Maven_Details\\time-tracker"
 		bat 'dir'
 		//bat "${mvnHome}/bin/mvn package"
 		//bat "C:/ProgramData/Jenkins/.jenkins/workspace/Maven_Details/time-tracker/${mvnHome}/bin/mvn package"
