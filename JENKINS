@@ -1,0 +1,18 @@
+node{
+	stage('SCM checkout'){
+		echo 'hello'
+		bat  'rmdir mavennn /S /Q'
+		bat "git clone https://github.com/MohitKumar-Github/mavennn.git"
+	}
+	stage('compile package'){
+		//get maven home path
+		def mvnHome = tool name: 'maven 3.9', type: 'maven'
+		echo "The value of mvnHome is: ${mvnHome}"
+		echo 'hello maven'		
+
+		//bat 'mvn package'
+		bat "${mvnHome}/bin/mvn package"
+		//bat "${mvnhome}/bin"
+	}
+
+}
