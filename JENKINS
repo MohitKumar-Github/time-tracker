@@ -11,7 +11,7 @@ node{
 		def mvnHome = tool name: 'maven 3.9', type: 'maven'
 		echo "The value of mvnHome is: ${mvnHome}"
 		bat 'dir'
-		cd time-tracker
+		bat "cd time-tracker"
 		echo 'hello maven'		
 		//bat 'mvn package'
 		bat "C:/ProgramData/Jenkins/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.9/bin/mvn package"
